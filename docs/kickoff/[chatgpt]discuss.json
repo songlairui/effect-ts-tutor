@@ -1,0 +1,1550 @@
+{
+    "title": "AI 辅助自测流程",
+    "create_time": 1778038313.201406,
+    "update_time": 1778039636.141018,
+    "moderation_results": [],
+    "plugin_ids": null,
+    "conversation_id": "69fab5aa-142c-832b-8f00-3ab5a0c763b2",
+    "conversation_template_id": null,
+    "gizmo_id": null,
+    "gizmo_type": null,
+    "is_archived": false,
+    "is_starred": null,
+    "safe_urls": [
+        "https://www.notion.so/9162f50b62b080124ca4db47ba6f2e54",
+        "https://pypi.org/project/browser-use/?utm_source=chatgpt.com",
+        "https://github.com/my_company/my-private-repo/blob/main/examples/README.md",
+        "https://docs.browserbase.com/welcome/introduction",
+        "https://github.com/some_company/some-private-repo/blob/main/examples/README.md",
+        "https://docs.google.com/spreadsheets/d/1HmkfBJulhu50S6L9wuRsaVC9VL1LpbxpmgRzn33SxsQ/edit?gid=676408861#gid=676408861",
+        "https://chatgpt.com/apps",
+        "https://developers.openai.com/api/docs/guides/tools-computer-use?utm_source=chatgpt.com",
+        "https://www.openai.com",
+        "https://docs.google.com/document/d/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ/edit?tab=t.0#heading=h.e3mmf6q9l82j",
+        "https://pypi.org/project/browser-use/",
+        "https://docs.browserbase.com/welcome/introduction?utm_source=chatgpt.com",
+        "https://developers.openai.com/api/docs/guides/tools-computer-use",
+        "https://docs.google.com/document/d/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ"
+    ],
+    "blocked_urls": [],
+    "default_model_slug": "gpt-5-5-thinking",
+    "atlas_mode_enabled": null,
+    "conversation_origin": null,
+    "is_read_only": null,
+    "voice": null,
+    "async_status": null,
+    "disabled_tool_ids": [],
+    "is_temporary_chat": false,
+    "is_do_not_remember": false,
+    "memory_scope": "global_enabled",
+    "context_scopes": [],
+    "sugar_item_id": null,
+    "sugar_item_visible": false,
+    "pinned_time": null,
+    "is_study_mode": false,
+    "owner": null,
+    "mapping": {
+        "4b354327-bdc8-496c-bda6-aa9c4f6096d4": {
+            "id": "4b354327-bdc8-496c-bda6-aa9c4f6096d4",
+            "message": null,
+            "parent": null,
+            "children": [
+                "817f1ee5-2c41-4254-b38d-ff305935a03a"
+            ]
+        },
+        "817f1ee5-2c41-4254-b38d-ff305935a03a": {
+            "id": "817f1ee5-2c41-4254-b38d-ff305935a03a",
+            "message": {
+                "id": "817f1ee5-2c41-4254-b38d-ff305935a03a",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 0.0,
+                "metadata": {
+                    "is_visually_hidden_from_conversation": true,
+                    "can_save": false
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "4b354327-bdc8-496c-bda6-aa9c4f6096d4",
+            "children": [
+                "dc8925c0-6a5a-4a06-ba10-10a83bc74d2e"
+            ]
+        },
+        "dc8925c0-6a5a-4a06-ba10-10a83bc74d2e": {
+            "id": "dc8925c0-6a5a-4a06-ba10-10a83bc74d2e",
+            "message": {
+                "id": "dc8925c0-6a5a-4a06-ba10-10a83bc74d2e",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 0.0,
+                "metadata": {
+                    "rebase_developer_message": true,
+                    "is_visually_hidden_from_conversation": true,
+                    "can_save": false
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "817f1ee5-2c41-4254-b38d-ff305935a03a",
+            "children": [
+                "e86315f0-6345-46fd-b38b-83a7e273d709"
+            ]
+        },
+        "e86315f0-6345-46fd-b38b-83a7e273d709": {
+            "id": "e86315f0-6345-46fd-b38b-83a7e273d709",
+            "message": {
+                "id": "e86315f0-6345-46fd-b38b-83a7e273d709",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1.0,
+                "metadata": {
+                    "is_contextual_answers_system_message": true,
+                    "contextual_answers_message_type": "identity_prompt",
+                    "is_visually_hidden_from_conversation": true,
+                    "can_save": false
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "dc8925c0-6a5a-4a06-ba10-10a83bc74d2e",
+            "children": [
+                "ba1324a1-bcc6-4705-ab8e-2281661c5805"
+            ]
+        },
+        "ba1324a1-bcc6-4705-ab8e-2281661c5805": {
+            "id": "ba1324a1-bcc6-4705-ab8e-2281661c5805",
+            "message": {
+                "id": "ba1324a1-bcc6-4705-ab8e-2281661c5805",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038312.910343,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 0.0,
+                "metadata": {
+                    "request_id": "e8bea8ab-b579-4f9f-8a76-3cdbe9b5fb10",
+                    "message_source": null,
+                    "turn_exchange_id": "5c4eb4e2-6e30-4e7c-9e03-ffdfd32d65a8",
+                    "is_visually_hidden_from_conversation": true,
+                    "can_save": false
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "e86315f0-6345-46fd-b38b-83a7e273d709",
+            "children": [
+                "4f1f6d36-3a42-4470-a35e-16488bd50f3e"
+            ]
+        },
+        "4f1f6d36-3a42-4470-a35e-16488bd50f3e": {
+            "id": "4f1f6d36-3a42-4470-a35e-16488bd50f3e",
+            "message": {
+                "id": "4f1f6d36-3a42-4470-a35e-16488bd50f3e",
+                "author": {
+                    "role": "user",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038312.55122,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "工作环节思考： 当前需求，我要开始一个自测，形成一个自测报告，交付给其他同事，确认自测完成。通过这个环节，增加交付可信度。\n\n我的难点：我需要手动控制浏览器 - 准备mock数据，费心费力。 但现在，有了 视觉 API，有了 computer use 应该比较容器。而且兜底应该有个泥石流的方案 - 完全的 codex compute use.\n\n所以，我的流程是，找到需求中要自测的范围\n主动描述\n拆分成为自测场景 （LLM 完成）\n区分前置条件准备（测试账号登录，如果需要登录态； 开启响应的模式，mock 方式开启， 测试环境切换）\n然后是页面的点击路径\n\n交付形式：\n- 开启代码记录和截图\n- 开启自动放大的视频（recordly 未来计划)\n\n--- \n\n以上，是我项目起步的思路。\n接下来，我将找一个具体事例，收工开动，记录环节，然后每个环节尝试使用 AI 工具完成。或者手动启动的每个环节都尝试加入 AI - 从让 AI 开启一个浏览器开始\n\n-----\n\n"
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1.0,
+                "metadata": {
+                    "triggered_by_system_hint_suggestion": false,
+                    "dictation": false,
+                    "request_id": "e8bea8ab-b579-4f9f-8a76-3cdbe9b5fb10",
+                    "message_source": null,
+                    "turn_exchange_id": "5c4eb4e2-6e30-4e7c-9e03-ffdfd32d65a8",
+                    "resolved_model_slug": "gpt-5-5-thinking",
+                    "can_save": false
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "ba1324a1-bcc6-4705-ab8e-2281661c5805",
+            "children": [
+                "a1e41888-c340-42b5-b261-e1c94d1b77ab"
+            ]
+        },
+        "a1e41888-c340-42b5-b261-e1c94d1b77ab": {
+            "id": "a1e41888-c340-42b5-b261-e1c94d1b77ab",
+            "message": {
+                "id": "a1e41888-c340-42b5-b261-e1c94d1b77ab",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038313.060815,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1.0,
+                "metadata": {
+                    "is_contextual_answers_system_message": true,
+                    "is_visually_hidden_from_conversation": true,
+                    "command": "prompt",
+                    "contextual_answers_message_type": "sources_and_filters_prompt",
+                    "chime_version": 1,
+                    "request_id": "e8bea8ab-b579-4f9f-8a76-3cdbe9b5fb10",
+                    "message_type": "next",
+                    "turn_exchange_id": "5c4eb4e2-6e30-4e7c-9e03-ffdfd32d65a8",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "parent_id": "4f1f6d36-3a42-4470-a35e-16488bd50f3e",
+                    "can_save": false
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "4f1f6d36-3a42-4470-a35e-16488bd50f3e",
+            "children": [
+                "5c7cf44b-58bc-4e23-9d70-9782b49cefc5"
+            ]
+        },
+        "5c7cf44b-58bc-4e23-9d70-9782b49cefc5": {
+            "id": "5c7cf44b-58bc-4e23-9d70-9782b49cefc5",
+            "message": {
+                "id": "5c7cf44b-58bc-4e23-9d70-9782b49cefc5",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038313.126446,
+                "update_time": null,
+                "content": {
+                    "content_type": "model_editable_context",
+                    "model_set_context": "",
+                    "repository": null,
+                    "repo_summary": null,
+                    "structured_context": null
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1.0,
+                "metadata": {
+                    "search_result_groups": [],
+                    "chime_version": 1,
+                    "request_id": "e8bea8ab-b579-4f9f-8a76-3cdbe9b5fb10",
+                    "message_type": "next",
+                    "turn_exchange_id": "5c4eb4e2-6e30-4e7c-9e03-ffdfd32d65a8",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "can_save": false,
+                    "parent_id": "a1e41888-c340-42b5-b261-e1c94d1b77ab",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "a1e41888-c340-42b5-b261-e1c94d1b77ab",
+            "children": [
+                "14f9e40f-4ee4-4b9d-940e-521d9123414c"
+            ]
+        },
+        "14f9e40f-4ee4-4b9d-940e-521d9123414c": {
+            "id": "14f9e40f-4ee4-4b9d-940e-521d9123414c",
+            "message": {
+                "id": "14f9e40f-4ee4-4b9d-940e-521d9123414c",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038313.619422,
+                "update_time": null,
+                "content": {
+                    "content_type": "thoughts",
+                    "thoughts": [],
+                    "source_analysis_msg_id": "bf36a8f4-97ee-40c0-80a7-3010531dbac3"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "reasoning_status": "is_reasoning",
+                    "citations": [],
+                    "content_references": [],
+                    "resolved_model_slug": "gpt-5-5-thinking",
+                    "hide_inline_actions": true,
+                    "disable_turn_actions": true,
+                    "chime_version": 1,
+                    "request_id": "e8bea8ab-b579-4f9f-8a76-3cdbe9b5fb10",
+                    "message_type": "next",
+                    "turn_exchange_id": "5c4eb4e2-6e30-4e7c-9e03-ffdfd32d65a8",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "parent_id": "bf36a8f4-97ee-40c0-80a7-3010531dbac3",
+                    "classifier_response": "default",
+                    "reasoning_start_time": 1778038313.0789998,
+                    "permissions": [
+                        {
+                            "type": "notification",
+                            "status": "requested",
+                            "notification_channel_id": "thinking",
+                            "notification_channel_name": "Thinking",
+                            "notification_priority": 4
+                        }
+                    ],
+                    "skip_reasoning_title": "跳过",
+                    "can_save": false,
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "5c7cf44b-58bc-4e23-9d70-9782b49cefc5",
+            "children": [
+                "270b2b46-94cd-4adc-81c7-4adee74a0179"
+            ]
+        },
+        "270b2b46-94cd-4adc-81c7-4adee74a0179": {
+            "id": "270b2b46-94cd-4adc-81c7-4adee74a0179",
+            "message": {
+                "id": "270b2b46-94cd-4adc-81c7-4adee74a0179",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038314.1391,
+                "update_time": null,
+                "content": {
+                    "content_type": "reasoning_recap",
+                    "content": "已思考若干秒"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "reasoning_status": "reasoning_ended",
+                    "finished_duration_sec": 1,
+                    "reasoning_start_time": 1778038313.0789998,
+                    "reasoning_end_time": 1778038314.1236289,
+                    "request_id": "e8bea8ab-b579-4f9f-8a76-3cdbe9b5fb10",
+                    "message_type": "next",
+                    "turn_exchange_id": "5c4eb4e2-6e30-4e7c-9e03-ffdfd32d65a8",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "can_save": false,
+                    "parent_id": "14f9e40f-4ee4-4b9d-940e-521d9123414c",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "14f9e40f-4ee4-4b9d-940e-521d9123414c",
+            "children": [
+                "a0619537-0f14-4d31-85af-17af0862bc0a"
+            ]
+        },
+        "a0619537-0f14-4d31-85af-17af0862bc0a": {
+            "id": "a0619537-0f14-4d31-85af-17af0862bc0a",
+            "message": {
+                "id": "a0619537-0f14-4d31-85af-17af0862bc0a",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038313.108188,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "这个方向很有价值：你不是在做“测试自动化”，而是在做一个**AI 辅助自测交付流程**，核心目标是提升需求交付的可信度。\n\n我建议你把它先收敛成一个可执行的 MVP 流程，不要一开始就追求全自动。\n\n## 你当前思路可以整理成 5 个环节\n\n### 1. 明确自测范围\n\n输入可以是：\n\n需求文档、PRD、issue、开发说明、代码 diff、接口变更说明。\n\nAI 要做的是：\n\n把“这个需求到底要测什么”主动描述出来。\n\n产出示例：\n\n```md\n本次自测范围：\n1. 用户在 A 页面点击 B 按钮后，可以进入 C 流程\n2. 当用户满足 X 条件时，展示 Y 状态\n3. 当接口返回异常时，页面展示兜底提示\n4. 不覆盖历史配置项 Z 的行为\n```\n\n这里的价值是：先让 AI 帮你把“测试对象”说清楚。\n\n---\n\n### 2. 拆分自测场景\n\n让 LLM 根据自测范围生成场景：\n\n```md\n场景 1：正常路径\n- 前置条件：用户已登录，账号具备权限\n- 操作路径：进入页面 -> 点击按钮 -> 提交表单\n- 预期结果：页面跳转成功，状态更新\n\n场景 2：无权限路径\n- 前置条件：用户无权限\n- 操作路径：进入页面\n- 预期结果：按钮不可见或提示无权限\n\n场景 3：接口异常\n- 前置条件：mock 接口返回 500\n- 操作路径：触发请求\n- 预期结果：展示错误提示，不阻塞页面\n```\n\n这个环节最适合 AI，因为它擅长从需求中发散边界情况。\n\n---\n\n### 3. 区分前置条件准备\n\n你提到的痛点很准确：**准备 mock 数据、登录态、环境切换最费心力。**\n\n这里可以单独拆成一张“前置条件表”：\n\n```md\n| 场景 | 登录态 | 测试账号 | 环境 | Mock 数据 | 特殊开关 |\n|---|---|---|---|---|---|\n| 正常路径 | 需要 | test_user_a | test | success response | feature_x=true |\n| 无权限 | 需要 | test_user_b | test | 无 | feature_x=true |\n| 接口异常 | 需要 | test_user_a | test | 500 response | feature_x=true |\n```\n\n后续 AI 工具可以专门围绕这张表做自动准备。\n\n比如：\n\n- Playwright / browser use 负责打开页面、登录、点击。\n- Mock 服务或本地代理负责切接口响应。\n- Codex / computer use 负责兜底生成脚本、修复 selector、分析失败原因。\n\n---\n\n### 4. 页面点击路径自动执行\n\n这里可以分三档能力：\n\n第一档：**AI 生成手动测试步骤**\n\n```md\n1. 打开测试环境 URL\n2. 使用 test_user_a 登录\n3. 进入订单详情页\n4. 点击“发起退款”\n5. 输入退款原因\n6. 点击提交\n7. 校验页面出现“退款申请成功”\n```\n\n第二档：**AI 生成 Playwright 脚本**\n\n```ts\ntest('用户可以正常发起退款', async ({ page }) => {\n  await page.goto(TEST_URL)\n  await login(page, 'test_user_a')\n  await page.getByText('发起退款').click()\n  await page.getByPlaceholder('请输入退款原因').fill('自测 mock 数据')\n  await page.getByRole('button', { name: '提交' }).click()\n  await expect(page.getByText('退款申请成功')).toBeVisible()\n})\n```\n\n第三档：**AI + browser/computer use 实际操作浏览器**\n\n让 AI 从“打开浏览器”开始，自己执行路径、截图、记录失败点。\n\n你现在应该优先落地第一档 + 第二档，第三档作为增强能力。\n\n---\n\n### 5. 形成自测报告\n\n最终交付物建议固定成模板。\n\n```md\n# 自测报告：需求名称\n\n## 1. 自测结论\n\n结论：通过 / 部分通过 / 未通过\n\n## 2. 自测范围\n\n- 覆盖点 A\n- 覆盖点 B\n- 覆盖点 C\n\n## 3. 自测环境\n\n- 环境：\n- 分支 / commit：\n- 测试账号：\n- Mock 配置：\n- Feature flag：\n\n## 4. 自测场景\n\n| 场景 | 前置条件 | 操作路径 | 预期结果 | 实际结果 | 结论 | 证据 |\n|---|---|---|---|---|---|---|\n| 正常路径 | 已登录 | 点击 A -> B | 成功展示 | 符合预期 | 通过 | 截图 / 录像 |\n| 异常路径 | 接口 500 | 触发请求 | 展示错误 | 符合预期 | 通过 | 截图 |\n\n## 5. 发现的问题\n\n- 问题 1：\n- 影响：\n- 复现路径：\n- 建议处理：\n\n## 6. 交付确认\n\n本次需求已完成自测，覆盖核心路径、异常路径和关键前置条件。\n```\n\n---\n\n## 我建议你第一个具体事例这样选\n\n不要选复杂需求，选一个具备这些特征的需求：\n\n1. 有明确页面入口。\n2. 有一个核心按钮或表单。\n3. 有接口请求。\n4. 能通过 mock 构造成功和失败。\n5. 最终能用截图证明结果。\n\n例如：\n\n- 新增一个按钮\n- 新增一个配置开关\n- 一个表单提交流程\n- 一个列表筛选条件\n- 一个弹窗交互\n- 一个接口异常兜底展示\n\n不要一开始选跨多个系统、复杂权限、多角色协作的需求。\n\n---\n\n## 你的 MVP 可以定义成这样\n\n**目标：让 AI 帮我从一个需求开始，生成自测场景、准备前置条件清单、执行页面路径、产出自测报告。**\n\n第一版不要求全自动。\n\n第一版只要求：\n\n```md\n输入：需求描述 + 测试环境 URL + 测试账号 + mock 方式说明\n\n输出：\n1. 自测范围\n2. 自测场景\n3. 前置条件清单\n4. 页面操作步骤\n5. 截图证据\n6. 自测报告\n```\n\n---\n\n## 你下一步可以这样开工\n\n找一个具体需求后，直接按这个格式喂给 AI：\n\n```md\n我要对下面这个需求做 AI 辅助自测。\n\n需求描述：\n...\n\n测试环境：\n...\n\n账号信息：\n...\n\n需要 mock 的接口：\n...\n\n我希望你帮我：\n1. 提炼自测范围\n2. 拆成自测场景\n3. 标记每个场景的前置条件\n4. 给出页面点击路径\n5. 生成可交付给同事的自测报告模板\n6. 如果可能，生成 Playwright 自动化脚本草稿\n```\n\n这个项目的关键不是“一次性全自动测试”，而是先把**自测过程结构化、证据化、可复用化**。等这个闭环跑通，再逐步把 mock、浏览器操作、截图、视频录制接入进去。"
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 1.0,
+                "metadata": {
+                    "finish_details": {
+                        "type": "stop",
+                        "stop_tokens": [
+                            200002
+                        ]
+                    },
+                    "is_complete": true,
+                    "citations": [],
+                    "content_references": [],
+                    "story_events": [],
+                    "resolved_model_slug": "gpt-5-5-thinking",
+                    "code_blocks": {
+                        "0": {
+                            "id": "hyn6ps",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "1": {
+                            "id": "bmlh28",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "2": {
+                            "id": "zza0yy",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "3": {
+                            "id": "eb0v0d",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "4": {
+                            "id": "j4d6hl",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "5": {
+                            "id": "4qc5eu",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "6": {
+                            "id": "gf0kmz",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "7": {
+                            "id": "nigsnp",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        }
+                    },
+                    "search_result_groups": [],
+                    "request_id": "e8bea8ab-b579-4f9f-8a76-3cdbe9b5fb10",
+                    "message_type": "next",
+                    "turn_exchange_id": "5c4eb4e2-6e30-4e7c-9e03-ffdfd32d65a8",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "can_save": true,
+                    "parent_id": "270b2b46-94cd-4adc-81c7-4adee74a0179",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": "final"
+            },
+            "parent": "270b2b46-94cd-4adc-81c7-4adee74a0179",
+            "children": [
+                "84654df5-b8bf-47a8-b8d7-f4e7c8cf2d80"
+            ]
+        },
+        "84654df5-b8bf-47a8-b8d7-f4e7c8cf2d80": {
+            "id": "84654df5-b8bf-47a8-b8d7-f4e7c8cf2d80",
+            "message": {
+                "id": "84654df5-b8bf-47a8-b8d7-f4e7c8cf2d80",
+                "author": {
+                    "role": "user",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038495.505013,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "所以，需要用到browserbase, browser-use, computer-use(cux) 等工具吗？"
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1.0,
+                "metadata": {
+                    "triggered_by_system_hint_suggestion": false,
+                    "dictation": false,
+                    "request_id": "0f7f8d4d-16be-44be-bdc8-f6adc0f02b40",
+                    "message_source": null,
+                    "turn_exchange_id": "896e4c11-d9cd-4bc3-9a2b-e2e806a12db2",
+                    "resolved_model_slug": "gpt-5-5-thinking",
+                    "can_save": false
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "a0619537-0f14-4d31-85af-17af0862bc0a",
+            "children": [
+                "13026a67-22b6-49cd-9665-38da5a2202a7"
+            ]
+        },
+        "13026a67-22b6-49cd-9665-38da5a2202a7": {
+            "id": "13026a67-22b6-49cd-9665-38da5a2202a7",
+            "message": {
+                "id": "13026a67-22b6-49cd-9665-38da5a2202a7",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038496.619263,
+                "update_time": null,
+                "content": {
+                    "content_type": "thoughts",
+                    "thoughts": [],
+                    "source_analysis_msg_id": "8d8d11ca-11fa-45a3-af7d-59f7da4d0d33"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "reasoning_status": "is_reasoning",
+                    "citations": [],
+                    "content_references": [],
+                    "resolved_model_slug": "gpt-5-5-thinking",
+                    "hide_inline_actions": true,
+                    "disable_turn_actions": true,
+                    "chime_version": 1,
+                    "request_id": "0f7f8d4d-16be-44be-bdc8-f6adc0f02b40",
+                    "message_type": "next",
+                    "turn_exchange_id": "896e4c11-d9cd-4bc3-9a2b-e2e806a12db2",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "parent_id": "8d8d11ca-11fa-45a3-af7d-59f7da4d0d33",
+                    "classifier_response": "default",
+                    "reasoning_start_time": 1778038496.5017853,
+                    "permissions": [
+                        {
+                            "type": "notification",
+                            "status": "requested",
+                            "notification_channel_id": "thinking",
+                            "notification_channel_name": "Thinking",
+                            "notification_priority": 4
+                        }
+                    ],
+                    "skip_reasoning_title": "跳过",
+                    "can_save": false,
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "84654df5-b8bf-47a8-b8d7-f4e7c8cf2d80",
+            "children": [
+                "90a2250d-f796-494a-83ef-d41d1bd5e6e4"
+            ]
+        },
+        "90a2250d-f796-494a-83ef-d41d1bd5e6e4": {
+            "id": "90a2250d-f796-494a-83ef-d41d1bd5e6e4",
+            "message": {
+                "id": "90a2250d-f796-494a-83ef-d41d1bd5e6e4",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038496.088362,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "我会按“你这个自测交付流程到底需不需要这些工具”来判断，而不是单纯列工具清单；重点放在 MVP 该用什么、什么时候升级。"
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "citations": [],
+                    "content_references": [],
+                    "story_events": [],
+                    "resolved_model_slug": "gpt-5-5-thinking",
+                    "is_thinking_preamble_message": true,
+                    "hide_inline_actions": true,
+                    "disable_turn_actions": true,
+                    "chime_version": 1,
+                    "request_id": "0f7f8d4d-16be-44be-bdc8-f6adc0f02b40",
+                    "message_type": "next",
+                    "turn_exchange_id": "896e4c11-d9cd-4bc3-9a2b-e2e806a12db2",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "can_save": true,
+                    "parent_id": "13026a67-22b6-49cd-9665-38da5a2202a7",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": "commentary"
+            },
+            "parent": "13026a67-22b6-49cd-9665-38da5a2202a7",
+            "children": [
+                "dd288afd-a9df-4ecd-a53b-a4b11a8ffccb"
+            ]
+        },
+        "dd288afd-a9df-4ecd-a53b-a4b11a8ffccb": {
+            "id": "dd288afd-a9df-4ecd-a53b-a4b11a8ffccb",
+            "message": {
+                "id": "dd288afd-a9df-4ecd-a53b-a4b11a8ffccb",
+                "author": {
+                    "role": "tool",
+                    "name": "web.run",
+                    "metadata": {
+                        "real_author": "tool:web.run"
+                    }
+                },
+                "create_time": 1778038497.927999,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1.0,
+                "metadata": {
+                    "search_model_queries": {
+                        "type": "search_model_queries",
+                        "queries": [
+                            "Browserbase documentation browser automation cloud 2026",
+                            "browser-use Python library documentation browser automation 2026",
+                            "OpenAI computer use tool documentation 2026"
+                        ]
+                    },
+                    "chime_version": 1,
+                    "request_id": "0f7f8d4d-16be-44be-bdc8-f6adc0f02b40",
+                    "message_type": "next",
+                    "turn_exchange_id": "896e4c11-d9cd-4bc3-9a2b-e2e806a12db2",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "parent_id": "3f2ad123-b800-410e-ba49-36318b6077e2",
+                    "can_save": false
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "90a2250d-f796-494a-83ef-d41d1bd5e6e4",
+            "children": [
+                "075af072-0684-4654-9ae3-fe3ca5ed59f3"
+            ]
+        },
+        "075af072-0684-4654-9ae3-fe3ca5ed59f3": {
+            "id": "075af072-0684-4654-9ae3-fe3ca5ed59f3",
+            "message": {
+                "id": "075af072-0684-4654-9ae3-fe3ca5ed59f3",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": {}
+                },
+                "create_time": 1778038499.705439,
+                "update_time": null,
+                "content": {
+                    "content_type": "reasoning_recap",
+                    "content": "已思考几秒"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1.0,
+                "metadata": {
+                    "reasoning_status": "reasoning_ended",
+                    "finished_duration_sec": 3,
+                    "reasoning_start_time": 1778038496.5017853,
+                    "reasoning_end_time": 1778038499.699604,
+                    "request_id": "0f7f8d4d-16be-44be-bdc8-f6adc0f02b40",
+                    "message_type": "next",
+                    "turn_exchange_id": "896e4c11-d9cd-4bc3-9a2b-e2e806a12db2",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "can_save": false,
+                    "parent_id": "0669a750-73f8-438d-b4d9-0240fa163d76",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "dd288afd-a9df-4ecd-a53b-a4b11a8ffccb",
+            "children": [
+                "217ff3db-7716-4f0b-b036-f41d83962623"
+            ]
+        },
+        "217ff3db-7716-4f0b-b036-f41d83962623": {
+            "id": "217ff3db-7716-4f0b-b036-f41d83962623",
+            "message": {
+                "id": "217ff3db-7716-4f0b-b036-f41d83962623",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": {
+                        "real_author": "tool:web"
+                    }
+                },
+                "create_time": 1778038499.300022,
+                "update_time": 1778039636.11398,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "需要，但**不要一开始全都上**。你的项目里这些工具分别解决不同层的问题：\n\n| 工具 | 主要解决什么 | 适合放在哪一层 |\n|---|---|---|\n| **Browserbase** | 云端浏览器运行环境、会话、截图、录像、并发、隔离 | 基础设施层 |\n| **browser-use** | 让 LLM 操作网页：理解页面、点击、输入、截图 | AI 浏览器执行层 |\n| **computer-use / CUA / CUX** | 让模型通过截图和 UI 动作操作软件界面 | 兜底执行层 |\n| **Playwright** | 稳定、可复现、可 CI 化的自动化脚本 | 主执行层 |\n| **Codex / coding agent** | 生成脚本、修复 selector、分析失败、补 mock | 工程兜底层 |\n\nBrowserbase 官方定位是给 agent 提供云端浏览器、网页交互、搜索、页面抓取、沙箱运行时等能力；browser-use 则偏向把浏览器自动化包装成 AI 可操作的命令/agent；OpenAI 的 computer use 是让模型通过截图观察 UI，并输出点击、输入等动作给你的 harness 执行。citeturn579348search0turn579348search1turn579348search2\n\n## 我的建议：分三层建设\n\n### 第一层：MVP 不必依赖 Browserbase / computer-use\n\n先用：\n\n```text\n需求描述\n  ↓\nLLM 拆自测范围 / 场景 / 前置条件\n  ↓\nPlaywright 执行\n  ↓\n截图 / trace / video\n  ↓\n自测报告\n```\n\n这一层已经能解决你 60% 的目标：**把自测从“我测过了”变成“有场景、有步骤、有证据、有报告”。**\n\n第一版建议主力是：\n\n```text\nLLM + Playwright + mock 配置 + 截图/trace\n```\n\n不要让 AI 直接自由点击页面。先让 AI 生成结构化场景和脚本，人来兜一次。\n\n---\n\n### 第二层：引入 browser-use，用来做探索式自测\n\nbrowser-use 适合做这些事：\n\n```text\n打开页面\n识别可点击元素\n尝试走一遍用户路径\n截图\n记录当前页面状态\n把探索路径转成 Playwright 草稿\n```\n\n它适合放在“我还不知道页面怎么走”的阶段。\n\n比如你给它：\n\n```text\n进入测试环境，登录后找到退款入口，完成一次退款申请，并记录每一步截图。\n```\n\n然后它帮你探索路径。\n\n但是它不一定适合作为最终稳定交付，因为 AI 点击路径可能受页面变化、文案变化、网络状态影响。所以最终报告最好还是沉淀为 Playwright / 测试用例。\n\n---\n\n### 第三层：Browserbase 作为生产化基础设施\n\n当你开始需要这些能力时，再上 Browserbase：\n\n```text\n多人使用\n云端跑浏览器\n保存 session\n录制视频\n并发执行\n隔离账号\nCI 集成\n无需本地 Chrome 环境\n统一产出 trace / video / screenshot\n```\n\n也就是说，Browserbase 不是第一天必须要有的“AI 能力”，而是当你的流程从个人实验变成团队工具时，它会变得很有价值。\n\n你可以这样理解：\n\n```text\nbrowser-use = AI 怎么操作浏览器\nBrowserbase = 浏览器在哪里稳定运行\nPlaywright = 如何稳定复现测试动作\n```\n\n---\n\n## computer-use / CUX 应该作为兜底，而不是主路径\n\ncomputer-use 更像“泥石流方案”，你前面这个判断是对的。\n\n它适合处理：\n\n```text\n没有稳定 DOM selector\n页面是 canvas / 复杂组件\n第三方后台无法接入 Playwright\n桌面 App 或非 Web UI\n页面结构混乱，但人眼能看懂\n需要临时操作浏览器、系统弹窗、下载文件\n```\n\n但它的问题也明显：\n\n```text\n成本更高\n速度更慢\n稳定性比 Playwright 差\n更难断言\n更难 CI 化\n更像人在远程桌面上操作\n```\n\n所以建议定位是：\n\n```text\n主路径：Playwright\n探索路径：browser-use\n云端运行：Browserbase\n兜底路径：computer-use / CUX\n工程兜底：Codex 生成和修复脚本\n```\n\n---\n\n## 我建议你的工具架构是这样\n\n```text\n需求 / PRD / issue / diff\n        ↓\nLLM：提炼自测范围\n        ↓\nLLM：拆自测场景\n        ↓\nLLM：生成前置条件清单\n        ↓\n┌──────────────────────────────┐\n│ 执行层                         │\n│                              │\n│ A. Playwright：稳定路径        │\n│ B. browser-use：探索路径       │\n│ C. computer-use：视觉兜底      │\n└──────────────────────────────┘\n        ↓\n证据采集：截图 / trace / video / console / network\n        ↓\nLLM：生成自测报告\n        ↓\n同事确认交付\n```\n\n## MVP 阶段我会这样选\n\n第一阶段只做：\n\n```text\nLLM + Playwright + screenshot + markdown report\n```\n\n第二阶段加入：\n\n```text\nbrowser-use：自动探索页面路径\n```\n\n第三阶段加入：\n\n```text\nBrowserbase：云端运行、保存会话、录像、并发\n```\n\n第四阶段加入：\n\n```text\ncomputer-use / CUX：处理无法用 DOM 自动化的页面\n```\n\n## 结论\n\n你**最终会需要** Browserbase、browser-use、computer-use 这类工具，但它们不是同一类能力，也不应该同时作为第一版核心。\n\n最推荐的起步组合是：\n\n```text\nLLM 拆测试场景\n+ Playwright 执行\n+ mock 数据配置\n+ 自动截图/trace\n+ LLM 生成自测报告\n```\n\n然后把 browser-use 当作“AI 帮我探索页面路径”的增强，把 Browserbase 当作“团队化云端运行”的增强，把 computer-use 当作“页面自动化彻底搞不定时的视觉兜底”。"
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 1.0,
+                "metadata": {
+                    "finish_details": {
+                        "type": "stop",
+                        "stop_tokens": [
+                            200002
+                        ]
+                    },
+                    "is_complete": true,
+                    "content_references": [
+                        {
+                            "matched_text": "citeturn579348search0turn579348search1turn579348search2",
+                            "prefix": null,
+                            "start_idx": 533,
+                            "end_idx": 593,
+                            "safe_urls": [
+                                "https://developers.openai.com/api/docs/guides/tools-computer-use",
+                                "https://developers.openai.com/api/docs/guides/tools-computer-use?utm_source=chatgpt.com",
+                                "https://docs.browserbase.com/welcome/introduction",
+                                "https://docs.browserbase.com/welcome/introduction?utm_source=chatgpt.com",
+                                "https://pypi.org/project/browser-use/",
+                                "https://pypi.org/project/browser-use/?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Browserbase 文档](https://docs.browserbase.com/welcome/introduction?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Introducing Browserbase - Browserbase Documentation",
+                                    "url": "https://docs.browserbase.com/welcome/introduction?utm_source=chatgpt.com",
+                                    "attribution": "Browserbase 文档",
+                                    "pub_date": null,
+                                    "snippet": "Browserbase is the complete platform to build and deploy agents that browse and interact with the web like humans. One API key gives your agent access to cloud browsers, web search, page fetching, sandbox runtime, and access to every major LLM.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [
+                                        {
+                                            "title": "browser-use · PyPI",
+                                            "url": "https://pypi.org/project/browser-use/?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "Fast, persistent browser automation from the command line: The CLI keeps the browser running between commands for fast iteration. See CLI docs for all commands. For Claude Code, install the skill to enable AI-assisted browser automation: What's the best model to use? Should I use the Browser Use system prompt with the open-source preview model?",
+                                            "attribution": "PyPI"
+                                        },
+                                        {
+                                            "title": "Computer use | OpenAI API",
+                                            "url": "https://developers.openai.com/api/docs/guides/tools-computer-use?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "Computer use lets a model operate software through the user interface. It can inspect screenshots, return interface actions for your code to execute, or work through a custom harness that mixes visual and programmatic interaction with the UI.",
+                                            "attribution": "OpenAI 开发者"
+                                        }
+                                    ],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 0
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 1
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 2
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": " ",
+                            "prefix": null,
+                            "start_idx": 2903,
+                            "end_idx": 2904,
+                            "safe_urls": [],
+                            "refs": [],
+                            "alt": "",
+                            "prompt_text": null,
+                            "type": "sources_footnote",
+                            "sources": [
+                                {
+                                    "title": "Introducing Browserbase - Browserbase Documentation",
+                                    "url": "https://docs.browserbase.com/welcome/introduction?utm_source=chatgpt.com",
+                                    "attribution": "Browserbase 文档"
+                                }
+                            ],
+                            "has_images": false
+                        }
+                    ],
+                    "safe_urls": [
+                        "https://developers.openai.com/api/docs/guides/tools-computer-use",
+                        "https://developers.openai.com/api/docs/guides/tools-computer-use?utm_source=chatgpt.com",
+                        "https://docs.browserbase.com/welcome/introduction",
+                        "https://docs.browserbase.com/welcome/introduction?utm_source=chatgpt.com",
+                        "https://pypi.org/project/browser-use/",
+                        "https://pypi.org/project/browser-use/?utm_source=chatgpt.com"
+                    ],
+                    "search_result_groups": [
+                        {
+                            "type": "search_result_group",
+                            "domain": "pypi.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://pypi.org/project/browser-use/?utm_source=chatgpt.com",
+                                    "title": "browser-use · PyPI",
+                                    "snippet": "Fast, persistent browser automation from the command line: The CLI keeps the browser running between commands for fast iteration. See CLI docs for all commands. For Claude Code, install the skill to e...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 1
+                                    },
+                                    "pub_date": 1775116800.0,
+                                    "attribution": "pypi.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "openai.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://developers.openai.com/api/docs/guides/tools-computer-use?utm_source=chatgpt.com",
+                                    "title": "Computer use | OpenAI API",
+                                    "snippet": "Computer use lets a model operate software through the user interface. It can inspect screenshots, return interface actions for your code to execute, or work through a custom harness that mixes visual...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 2
+                                    },
+                                    "pub_date": 1777881600.0,
+                                    "attribution": "openai.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "dicloak.cn",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://dicloak.cn/blog-detail/browserbase-review-2026-cloud-headless-browsers-for-automation-ai-agents-and-jsheavy-sites?utm_source=chatgpt.com",
+                                    "title": "Browserbase评测（2026年）：适用于自动化、AI代理及 ...",
+                                    "snippet": "了解定价后，大家通常会问，为什么不同工具的成本与效果差异如此之大。 答案在于，Browserbase 并非试图解决自动化场景下的所有问题，它主要覆盖自动化运行时（在云端运行浏览器）。 其他工具则可能专注于基础设施扩容或身份隔离。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 3
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "dicloak.cn"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "github.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://github.com/browser-use/browser-use?utm_source=chatgpt.com",
+                                    "title": "GitHub - browser-use/browser-use: Make websites accessible for AI ...",
+                                    "snippet": "🌤️ Want to skip the setup? Use our cloud for faster, scalable, stealth-enabled browser automation!",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 4
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "github.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https://github.com/browserbase/playbook?utm_source=chatgpt.com",
+                                    "title": "Browserbase Playbook - GitHub",
+                                    "snippet": "Browserbase provides cloud browser infrastructure for reliable web automation. This playbook demonstrates how to use Browserbase with various languages and frameworks to:",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 15
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "github.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "nxcode.io",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://www.nxcode.io/zh/resources/news/how-to-use-gpt-5-4-computer-use-automation-guide-2026?utm_source=chatgpt.com",
+                                    "title": "GPT-5.4 Computer Use 使用指南：分步桌面自动化教程 (2026)",
+                                    "snippet": "GPT-5.4 Computer Use 桌面自动化分步教程。 涵盖环境搭建、API 配置、表单填写、数据录入、应用导航和工作流自动化的实操示例——附带可直接运行的 Python 代码。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 5
+                                    },
+                                    "pub_date": 1773561600.0,
+                                    "attribution": "nxcode.io"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https://www.nxcode.io/zh/resources/news/stagehand-vs-browser-use-vs-playwright-ai-browser-automation-2026?utm_source=chatgpt.com",
+                                    "title": "Stagehand vs Browser Use vs Playwright：AI 浏览器自动化 ...",
+                                    "snippet": "Playwright 是一个用于端到端测试和网页抓取的 确定性浏览器自动化框架。 它通过简洁、现代的 API 控制 Chromium、Firefox 和 WebKit。 没有 AI，没有 LLM 调用——你编写明确的选择器和操作。 Playwright 成为行业标准是有原因的：它快速、可靠、经过实战检验。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 21
+                                    },
+                                    "pub_date": 1771488000.0,
+                                    "attribution": "nxcode.io"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "hermesagent.org.cn",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://hermesagent.org.cn/docs/user-guide/features/browser?utm_source=chatgpt.com",
+                                    "title": "浏览器自动化 | Hermes Agent 中文社区",
+                                    "snippet": "要使用 Browserbase 管理的云浏览器，请添加： 在 browserbase.com 获取您的凭证。 要将 Browser Use 作为您的云浏览器服务提供商，请添加： 在 browser-use.com 获取您的 API 密钥。 Browser Use 通过其 REST API 提供云浏览器服务。 如果同时设置了 Browserbase 和 Browser Use 的凭证，Browser...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 6
+                                    },
+                                    "pub_date": 1777104000.0,
+                                    "attribution": "hermesagent.org.cn"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "browser-use.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://docs.browser-use.com/open-source/introduction?utm_source=chatgpt.com",
+                                    "title": "Browser Use Open Source - Browser Use",
+                                    "snippet": "Python library for AI browser automation with 79k+ GitHub stars. Connect any LLM and run locally or self-hosted.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 7
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "browser-use.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "open-techstack.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://open-techstack.com/blog/codex-computer-use-update-april-2026/?utm_source=chatgpt.com",
+                                    "title": "Codex Computer Use Update (April 2026): What Changed",
+                                    "snippet": "OpenAI expanded Codex on April 16, 2026 with background computer use on macOS, an in-app browser, memory preview, reusable thread automations, and deeper developer workflow support.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 8
+                                    },
+                                    "pub_date": 1776585600.0,
+                                    "attribution": "open-techstack.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "dicloak.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://dicloak.com/tc/blog-detail/browserbase-review-2026-cloud-headless-browsers-for-automation-ai-agents-and-jsheavy-sites?utm_source=chatgpt.com",
+                                    "title": "Browserbase 評測 (2026)：用於自動化、AI 代理與重度網站 ...",
+                                    "snippet": "要了解Browserbase在自動化工作流程中的定位，從這個平台實際提供的服務開始會有所幫助。 Browserbase是一個在雲端提供受管理無頭瀏覽器基礎架構的平台。 開發人員無需在本機安裝與維護瀏覽器設定檔，而是可以遠端啟動瀏覽器工作階段，並透過自動化框架加以控制。 每個瀏覽器工作階段都在隔離環境中執行，讓多個工作流程可以同時執行且不會共用工作階段資料。 此架構簡化了營運大型自動化系統的團隊的部...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 9
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "dicloak.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "cnblogs.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://www.cnblogs.com/risheng/p/18792927?utm_source=chatgpt.com",
+                                    "title": "Browser-use 详细介绍&使用文档 - 日升_rs - 博客园",
+                                    "snippet": "Browser-use 详细介绍&使用文档 一、概述 Browser-use 是一个旨在将 AI “智能体”（Agents）与真实浏览器进行交互的 Python 库，可以轻松实现浏览器自动化。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 10
+                                    },
+                                    "pub_date": 1742976000.0,
+                                    "attribution": "cnblogs.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "csdn.net",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://blog.csdn.net/u010634066/article/details/158730429?utm_source=chatgpt.com",
+                                    "title": "GPT-5.4 发布：Computer Use 超越人类，Tool Search 让 ...",
+                                    "snippet": "OpenAI 刚刚发布 GPT-5.4，这次不只是模型更新，而是把推理、编程、Computer Use 和 Agent 工具调用全部整合到了一个模型里。 GPT-5.3 活了不到 48 小时，GPT-5.4 就来了——速度快得让人有点不适应，但能力确实上了一个台阶。 2026 年 3 月 5 日，OpenAI 正式发布 GPT-5.4。 同步上线的还有 GPT-5.4 Pro，提供更高性能的推理上...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 11
+                                    },
+                                    "pub_date": 1772784000.0,
+                                    "attribution": "csdn.net"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https://blog.csdn.net/qwesrdftgh/article/details/144602662?utm_source=chatgpt.com",
+                                    "title": "解锁无头浏览器的潜力：Browserbase平台详解 - CSDN博客",
+                                    "snippet": "Browserbase是一个开发者平台，专注于为无头浏览器提供可靠的运行、管理和监控服务。 这项服务特别适合需要从复杂UI中提取数据的AI应用程序。 Browserbase为开发者提供了一个强大的平台来运行和管理无头浏览器，其功能大大简化了复杂UI的数据提取过程。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 12
+                                    },
+                                    "pub_date": 1734681600.0,
+                                    "attribution": "csdn.net"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https://blog.csdn.net/jiangjunshow/article/details/159423762?utm_source=chatgpt.com",
+                                    "title": "browser-use爆火解析｜Python操控浏览器实现自动化办公 ...",
+                                    "snippet": "最近这项目在GitHub上直接杀疯了，34k+星星，YC加持，堪称2026年AI自动化领域的一匹黑马。 一、它到底是个啥？ AI时代的\"浏览器遥控器\" 简单来说，browser-use就是个给AI装上浏览器驾照的Python库。 传统的自动化工具像Selenium、Playwright，你得像写剧本一样告诉它：\"先点这个按钮，再输入那个框，然后等3秒…\"一步错就全盘崩。 但browser-use不...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 13
+                                    },
+                                    "pub_date": 1774339200.0,
+                                    "attribution": "csdn.net"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "xaicontrol.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://xaicontrol.com/blog/codex-for-almost-everything/?utm_source=chatgpt.com",
+                                    "title": "Codex for（几乎）一切：OpenAI 将 Codex 扩展到整个开发 ...",
+                                    "snippet": "基于 OpenAI 2026 年 4 月 16 日官方文章的详细译写与整理，梳理 Codex 桌面应用在电脑操作、浏览器、图像生成、记忆、自动化与开发工作流上的新能力。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 14
+                                    },
+                                    "pub_date": 1776326400.0,
+                                    "attribution": "xaicontrol.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "tencent.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://cloud.tencent.com/developer/article/2658077?utm_source=chatgpt.com",
+                                    "title": "不用写脚本！Browser-Use 实操：AI 直接驱动浏览器自动化测试",
+                                    "snippet": "本文将从测试工程师的视角，全面拆解browser-use的核心价值、能解决的测试痛点、安装方式、快速实操用法及项目资源，全程贴合测试场景，拿来就能落地使用！ 一、Browser-Use是什么？ Browser-Use 是一个开源的 Python 库，专门用于 AI驱动的浏览器自动化。 它让 AI Agent 能够像人类用户一样\"看到\"网页、理解内容、做出决策并执行操作。 与传统自动化工具（Sele...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 16
+                                    },
+                                    "pub_date": 1776758400.0,
+                                    "attribution": "tencent.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "ghacks.net",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://www.ghacks.net/2026/04/17/openai-updates-codex-with-computer-use-in-app-browser-memory-and-90-plus-new-plugins/?utm_source=chatgpt.com",
+                                    "title": "OpenAI Updates Codex With Computer Use, In-App Browser, Memory, and 90 ...",
+                                    "snippet": "OpenAI has released a significant update to Codex, introducing features such as background computer use, an in-app browser, image generation, memory, expanded automations, and more than 90 new plugins...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 17
+                                    },
+                                    "pub_date": 1776412800.0,
+                                    "attribution": "ghacks.net"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "hubwiz.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://www.hubwiz.com/blog/chrome-automation-with-browserbase-mcp/?utm_source=chatgpt.com",
+                                    "title": "用Browserbase实现Chrome自动化 - 汇智网",
+                                    "snippet": "这项创新工具使AI模型——如Claude、GPT和Gemini——能够与Chrome浏览器交互，自动化从导航到数据提取的各个方面。 无论你是开发者、数据爱好者还是只是探索AI的潜力，本指南将帮助你利用Browserbase MCP 服务器进行浏览器自动化。 让我们开始吧！ 1 ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 18
+                                    },
+                                    "pub_date": 1753689600.0,
+                                    "attribution": "hubwiz.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "zeeklog.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://zeeklog.com/browser-use-wan-quan-zhi-nan-rang-aizi-dong-kong-zhi-liu-lan-qi-2?utm_source=chatgpt.com",
+                                    "title": "Browser Use 使用指南：AI 自动控制浏览器 | 极客日志",
+                                    "snippet": "「Browser Use 使用指南：AI 自动控制浏览器」一文讨论了哪些关键问题？ 介绍开源 Python 库 Browser Use，用于让 AI 模型自动控制浏览器。 支持多模型（GPT-4、Claude 等）、视觉感知及智能交互。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 19
+                                    },
+                                    "pub_date": 1775462400.0,
+                                    "attribution": "zeeklog.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "zhihu.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://zhuanlan.zhihu.com/p/2013187424461807926?utm_source=chatgpt.com",
+                                    "title": "GPT-5.4 发布：Computer Use 超越人类，Tool Search 让 ...",
+                                    "snippet": "导读： OpenAI 刚刚发布 GPT-5.4，这次不只是模型更新，而是把推理、编程、 Computer Use 和 Agent 工具调用全部整合到了一个模型里。 GPT-5.3 活了不到 48 小时，GPT-5.4 就来了——速度快得让人有点不适应，但能力确实上了一个台阶。 2026 年 3 月 5 日，OpenAI 正式发布 GPT-5.4。 同步上线的还有 GPT-5.4 Pro，提供更高性...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 20
+                                    },
+                                    "pub_date": 1772784000.0,
+                                    "attribution": "zhihu.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https://zhuanlan.zhihu.com/p/29559605859?utm_source=chatgpt.com",
+                                    "title": "Browser Use：40.7K Star！一句话让AI完全接管浏览器 ...",
+                                    "snippet": "Browser-use 是一个强大的工具，允许用户通过 AI 代理控制浏览器，实现自动化任务。 以下将详细介绍如何安装、配置和运行 Browser-use，同时提供一个简单的代码示例帮助你快速上手。 快速开始！ 1. 安装 Browser-use. Browser-use 需要 Python 3.11 或更高版本。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 22
+                                    },
+                                    "pub_date": 1741680000.0,
+                                    "attribution": "zhihu.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "apiyi.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://help.apiyi.com/gpt-5-4-computer-use-native-agent-openclaw-api-guide.html?utm_source=chatgpt.com",
+                                    "title": "解读 GPT-5.4 原生 Computer Use 能力：AI Agent 重大突破 ...",
+                                    "snippet": "这意味着 AI 不再需要外挂工具就能直接操控你的电脑：点击按钮、输入文字、滚动页面、拖拽文件，一切都在模型内部完成。 核心价值: 读完本文，你将了解 GPT-5.4 Computer Use 的技术原理、实战能力，以及如何结合 OpenClaw 构建高效 AI Agent 工作流。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 23
+                                    },
+                                    "pub_date": 1777536000.0,
+                                    "attribution": "apiyi.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "lobehub.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://lobehub.com/zh/skills/openclaw-skills-browser-automation?utm_source=chatgpt.com",
+                                    "title": "browserbase-browser-automation | Ski... · LobeHub",
+                                    "snippet": "摘要 该 Skill 通过 stagehand CLI 连接到预配置的 Browserbase 云会话，为 AI 代理自动化网页浏览器交互。 可用于导航 URL、提取页面数据、填写表单、点击元素、捕获屏幕截图并编排多步骤的网页工作流。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 24
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "lobehub.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "txtmix.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://txtmix.com/posts/tech/browser-use-ai-browser-automation-guide/?utm_source=chatgpt.com",
+                                    "title": "Browser-Use：让 AI Agent 控制浏览器完成任何任务 - Text ...",
+                                    "snippet": "Browser-Use 是一个 开源的 AI 浏览器自动化库，它的核心理念是： Tell your computer what to do, and it gets it done ——告诉计算机要做什么，它就能完成。 它让 AI Agent（GPT、Claude、Gemini 等）能够像人类一样控制浏览器，填写表单、点击按钮、搜索信息、完成各种 ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 25
+                                    },
+                                    "pub_date": 1775462400.0,
+                                    "attribution": "txtmix.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "openclawhub.tools",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://openclawhub.tools/tutorial/openai-computer-use/?utm_source=chatgpt.com",
+                                    "title": "Computer use (2026): Step-by-Step tools Guide",
+                                    "snippet": "Learn Computer use with practical steps, examples, FAQs, and related workflows for faster implementation.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 26
+                                    },
+                                    "pub_date": 1771401600.0,
+                                    "attribution": "openclawhub.tools"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "ai-bot.cn",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://ai-bot.cn/browserbase/?utm_source=chatgpt.com",
+                                    "title": "Browserbase – AI 网页浏览框架，自动化网页任务和数据检索",
+                                    "snippet": "Browserbase是为AI代理和应用程序设计的无头浏览器平台，即一种没有图形用户界面（GUI）的浏览器，能够加载和解析网页，执行JavaScript代码，及进行网络请求和响应等操作。 Browserbase与Playwright、Puppeteer和Selenium兼容，支持快速启动和管理数千个浏览器实例。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 27
+                                    },
+                                    "pub_date": 1777881600.0,
+                                    "attribution": "ai-bot.cn"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "aliyun.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://developer.aliyun.com/article/1670379?utm_source=chatgpt.com",
+                                    "title": "使用Python库BrowserUse以自然语言驱动浏览器自动化-开发 ...",
+                                    "snippet": "本文旨在阐述Python AI自动化工具Browser Use，详解其融合大语言模型的核心原理、关键特性与实践方法，助您高效构建可自主执行复杂网页任务的AI代理。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 28
+                                    },
+                                    "pub_date": 1751788800.0,
+                                    "attribution": "aliyun.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "digitalapplied.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://www.digitalapplied.com/blog/gpt-5-4-computer-use-tool-search-benchmarks-pricing?utm_source=chatgpt.com",
+                                    "title": "GPT-5.4: Computer Use, Tool Search, Benchmarks, Pricing",
+                                    "snippet": "OpenAI releases GPT-5.4 with native computer use, 1M context, and tool search reducing tokens by 47%. Complete benchmarks, pricing, and developer guide.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 29
+                                    },
+                                    "pub_date": 1772697600.0,
+                                    "attribution": "digitalapplied.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "danvega.dev",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://www.danvega.dev/blog/browserbase-spring-boot-starter?utm_source=chatgpt.com",
+                                    "title": "Giving Your Spring AI Agents a Real Browser with the Browserbase Spring ...",
+                                    "snippet": "Most AI agents can search the web. But what happens when they need to actually use it? I built a Spring Boot Starter for Browserbase that gives your agents a real, headless browser in three lines of c...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 30
+                                    },
+                                    "pub_date": 1774425600.0,
+                                    "attribution": "danvega.dev"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "aibars.net",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://www.aibars.net/zh/library/open-source-ai/details/723163829810368512?utm_source=chatgpt.com",
+                                    "title": "Browser-use - 让AI代理轻松控制浏览器的Python自动化库",
+                                    "snippet": "Browser-use是一个强大的Python库，让AI代理能够轻松控制浏览器执行各种网站自动化任务。 支持多种LLM模型，简单易用，可实现购物、求职申请、文档处理等复杂网页操作自动化。",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 31
+                                    },
+                                    "pub_date": 1777190400.0,
+                                    "attribution": "aibars.net"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "tosea.ai",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https://tosea.ai/blog/openai-codex-complete-guide-2026?utm_source=chatgpt.com",
+                                    "title": "How to Use OpenAI Codex: Complete 2026 Guide to GPT-5.5's Agentic ...",
+                                    "snippet": "A practical guide to OpenAI Codex in 2026 — the GPT-5.5-powered agentic coding tool with CLI, IDE, ChatGPT, and computer-use surfaces, used by 4M developers weekly.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 32
+                                    },
+                                    "pub_date": 1777017600.0,
+                                    "attribution": "tosea.ai"
+                                }
+                            ]
+                        }
+                    ],
+                    "story_events": [],
+                    "citations": [],
+                    "resolved_model_slug": "gpt-5-5-thinking",
+                    "code_blocks": {
+                        "0": {
+                            "id": "a3whn6",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "1": {
+                            "id": "igzphh",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "2": {
+                            "id": "mtmou0",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "3": {
+                            "id": "fev5iy",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "4": {
+                            "id": "qpk4qd",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "5": {
+                            "id": "uef88w",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "6": {
+                            "id": "g92t1f",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "7": {
+                            "id": "tmghlf",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "8": {
+                            "id": "0g5n6x",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "9": {
+                            "id": "z3p1tp",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "10": {
+                            "id": "vdkbfg",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "11": {
+                            "id": "j7la2z",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "12": {
+                            "id": "5akd6z",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "13": {
+                            "id": "11qyi8",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        },
+                        "14": {
+                            "id": "p6onp0",
+                            "edited": false,
+                            "previewable": false,
+                            "preview_language": null
+                        }
+                    },
+                    "request_id": "0f7f8d4d-16be-44be-bdc8-f6adc0f02b40",
+                    "message_type": "next",
+                    "turn_exchange_id": "896e4c11-d9cd-4bc3-9a2b-e2e806a12db2",
+                    "model_slug": "gpt-5-5-thinking",
+                    "default_model_slug": "gpt-5-5-thinking",
+                    "can_save": true,
+                    "parent_id": "075af072-0684-4654-9ae3-fe3ca5ed59f3",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": "final"
+            },
+            "parent": "075af072-0684-4654-9ae3-fe3ca5ed59f3",
+            "children": []
+        }
+    },
+    "current_node": "217ff3db-7716-4f0b-b036-f41d83962623"
+}
