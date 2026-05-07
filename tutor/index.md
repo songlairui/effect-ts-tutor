@@ -24,41 +24,19 @@ features:
 
 ## 学习路径
 
-```
-00-prelude      ← 地基：你已经信仰的那件事
-    │
-    ▼
-01-effect-aer   ← 三维签名 Effect<A, E, R>
-    │
-    ▼
-02-pipe-and-gen ← 两副组合面孔：pipe 与 Effect.gen
-    │
-    ▼
-03-error-channel← E 维度：类型化错误与 Cause
-    │
-    ▼
-04-schedule-retry ← 调度、重试、超时
-    │
-    ▼
-05-fiber-concurrency ← 并发原语与取消语义
-    │
-    ▼
-06-resource-scope ← 资源生命周期
-    │
-    ▼
-07-context-layer ← R 维度的兑现：依赖注入
-    │
-    ▼
-08-schema-boundary ← 边界处的硬墙
-    │
-    ▼
-09-stream        ← 超出 TQ 的领域
-    │
-    ▼
-10-react-coexistence ← 和 TQ / React 实战拼装
-    │
-    ▼
-11-coda          ← 收尾、告诫、进阶路径
+```mermaid
+graph TD
+    A[00 序言<br/>你已经会了那一半] --> B[01 Effect&lt;A, E, R&gt;<br/>三维签名]
+    B --> C[02 pipe 与 Effect.gen<br/>两副组合面孔]
+    C --> D[03 错误维度 E<br/>typed error 与 Cause]
+    D --> E[04 Schedule、retry 与 timeout<br/>时间的控制]
+    E --> F[05 并发与 Fiber<br/>Effect.all / race / fork]
+    F --> G[06 资源与 Scope<br/>acquireRelease]
+    G --> H[07 Context.Tag 与 Layer<br/>R 维度的兑现]
+    H --> I[08 Schema：边界处的硬墙<br/>decodeUnknown]
+    I --> J[09 Stream<br/>超出 TQ 的领域]
+    J --> K[10 与 TQ / React 共存<br/>实战拼装]
+    K --> L[11 收尾<br/>告诫与进阶路径]
 ```
 
 ## 前置要求

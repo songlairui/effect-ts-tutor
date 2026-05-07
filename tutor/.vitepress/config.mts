@@ -1,9 +1,15 @@
 import { defineConfig } from 'vitepress'
+import { mermaidPlugin } from './theme/mermaid-plugin'
 
 export default defineConfig({
     title: "Effect.ts Tutor",
     description: "给 TanStack Query 信徒的 Effect.ts 入门教程 — 三维签名、类型化错误、并发、资源安全、依赖注入、Schema 边界、Stream",
     ignoreDeadLinks: true,
+    markdown: {
+      config: (md) => {
+        mermaidPlugin(md)
+      }
+    },
     themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
