@@ -21,7 +21,9 @@ export function mermaidPlugin(md: MarkdownIt) {
 
     if (lang === 'mermaid') {
       try {
-        return renderMermaidSVG(token.content, DEFAULT_OPTIONS)
+        const svg = renderMermaidSVG(token.content, DEFAULT_OPTIONS)
+        // v-pre prevents Vue from compiling <style> inside the SVG
+        return `<div v-pre class="mermaid-diagram">${svg}</div>`
       } catch {
         return `<pre><code>${md.utils.escapeHtml(token.content)}</code></pre>`
       }
