@@ -5,10 +5,11 @@
     "moduleResolution": "nodenext",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": ["node"],
+    "declaration": true
   },
-  "include": ["*.ts"],
-  "references": [
-    { "path": "./packages/conv-md" }
-  ]
+  "include": ["src/**/*.ts"]
 }

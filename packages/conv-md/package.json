@@ -1,0 +1,23 @@
+{
+  "name": "conv-md",
+  "version": "0.1.0",
+  "description": "Convert Claude / ChatGPT conversation export JSON to XML-tagged Markdown",
+  "type": "module",
+  "bin": {
+    "conv-md": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "citty": "^0.2.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.8.2"
+  }
+}

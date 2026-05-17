@@ -3,3 +3,4 @@ node_modules
 .vitepress/dist
 tutor/.vitepress/cache
 tutor/.vitepress/dist
+packages/conv-md/dist
